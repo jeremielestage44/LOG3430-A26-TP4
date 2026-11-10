@@ -106,6 +106,8 @@ def main():
 
     subparsers = parser.add_subparsers(dest='command', help='Command')
 
+    # added comments
+
     # Detect command
     detect_parser = subparsers.add_parser('detect', help='Detect file encoding')
     detect_parser.add_argument('file', help='File to check')
